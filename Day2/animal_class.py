@@ -1,3 +1,7 @@
+"""
+A class that creates instances of animals
+"""
+
 class Animal(object):
     animal_type = ''
     num_of_legs = 4
@@ -48,5 +52,6 @@ class Cow(Animal):
 class PetDog(Dog):
     def __init__(self):
         self.name = input("> Enter your pet's name: ")
+
 
 
