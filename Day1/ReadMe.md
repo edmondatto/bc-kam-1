@@ -1,4 +1,4 @@
-**Aysmptotic Analysis**
+##Aysmptotic Analysis
 
 Best Case Scenario -> O(1)
 
