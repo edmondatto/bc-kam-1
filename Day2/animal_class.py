@@ -2,6 +2,7 @@
 A class that creates instances of animals
 """
 
+
 class Animal(object):
     animal_type = ''
     num_of_legs = 4
@@ -9,7 +10,9 @@ class Animal(object):
     num_of_horns = 0
 
     def __str__(self):
-        return "A {}  with {} legs and makes a {} sound.".format(self.__class__.__name__, self.num_of_legs, self.sound)
+        return "A {}  with {} legs and makes a {} sound.".format(self.__class__.__name__,
+                                                                 self.num_of_legs,
+                                                                 self.sound)
 
     def make_sound(self):
         return self.sound.upper() * 3
@@ -52,6 +55,3 @@ class Cow(Animal):
 class PetDog(Dog):
     def __init__(self):
         self.name = input("> Enter your pet's name: ")
-
-
-
