@@ -9,7 +9,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.Python
+#.Python
 env/
 build/
 develop-eggs/
@@ -17,15 +17,15 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
 var/
 wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+#*.egg-info/
+#.installed.cfg
+#*.egg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -85,10 +85,10 @@ celerybeat-schedule
 .env
 
 # virtualenv
-.venv
-venv/
-ENV/
-
+#.venv
+#venv/
+#ENV/
+command_line_app/
 # Spyder project settings
 .spyderproject
 
@@ -97,3 +97,4 @@ ENV/
 
 .gitignore
 .idea/
+/command_line_app/
